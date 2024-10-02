@@ -55,7 +55,7 @@ Synthesis can be done in two ways:
 
 ###  **Sweep using FastHenry:**
 
- ![](/img/trSweepFh.png)
+ <img src="/img/trSweepFh.png" width="300" height="auto">
 
 - FastHenry can be used to sweep thousands of different geometries in the range of several minutes
 - This is specially valuable for designing transformers (for matching networks), since primary and secondary inductors and coupling coefficient are dependent on each other, and it is difficult to design them independently
@@ -66,7 +66,7 @@ Synthesis can be done in two ways:
 
 ###  **Sweep using EMX:**
 
- ![](/img/trSweepEmx.png)
+<img src="/img/trSweepEmx.png" width="300" height="auto">
 
 - EMX is used for better accuracy
 - After selecting several geometries based on FastHenry simulation, EMX can be used for fine tuning
