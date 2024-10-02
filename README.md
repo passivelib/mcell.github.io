@@ -21,8 +21,6 @@ Synthesis can be done in two ways:
 
 ###  **PassiveLib** output:
 
- ![](/img/gdsFiles.png)
-
 - DRC clean set of gds files
 - Two scripts runEmx.sh and runModelgen.sh
 
