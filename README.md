@@ -33,8 +33,6 @@ Synthesis can be done in two ways:
 
 ###  **Result:**
 
- ![](/img/spice.png)
-
 - Result is parameterized spice model (plIndSymRect.scs)
 
 ## **2. Sweep geometry**
