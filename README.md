@@ -17,6 +17,10 @@ Synthesis can be done in two ways:
 
  ![](/img/spiceGen.png)
 
+ ```
+mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-lenght=20 --top-metal=TM2 --rect-geometry --generate-spice-model
+```
+
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
 
 ###  **PassiveLib** output:
