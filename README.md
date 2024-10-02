@@ -11,9 +11,9 @@ PassiveLib is a tool that automatize synthesis process of on-chip passive compon
 
 Synthesis can be done in two ways:
 
-##### **1. Generate parameterized spice model**
+## **1. Generate parameterized spice model**
 
-######  **Your input:**
+###  **Your input:**
 
  ![](/img/spiceGen.png)
 
