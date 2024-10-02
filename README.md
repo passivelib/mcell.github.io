@@ -19,29 +19,29 @@ Synthesis can be done in two ways:
 
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
 
-######  **PassiveLib** output:
+###  **PassiveLib** output:
 
  ![](/img/gdsFiles.png)
 
 - DRC clean set of gds files
 - Two scripts runEmx.sh and runModelgen.sh
 
-######   **User to do:**
+###   **User to do:**
 
  ![](/img/run.png)
 
 - Run script runEmx.sh to simulate all generated gds files for the provided component using Cadence EMX EM solver
 - Run script runModelgen.sh to create a scalable model for the required component in the given geometry and frequency range using Cadence Modelgen tool
 
-######  **Result:**
+###  **Result:**
 
  ![](/img/spice.png)
 
 - Result is parameterized spice model (plIndSymRect.scs)
 
-##### **2. Sweep geometry**
+## **2. Sweep geometry**
 
-######  **Your input:**
+###  **Your input:**
 
  ![](/img/tr1o1sw.png)
 
@@ -53,7 +53,7 @@ Synthesis can be done in two ways:
 - Sweep format is min:max:step
 - In the section Sweep two option are available EMX (SweepEMX) or FastHenry (SweepFastH) to sweep geometry
 
-######  **Sweep using FastHenry:**
+###  **Sweep using FastHenry:**
 
  ![](/img/trSweepFh.png)
 
@@ -64,7 +64,7 @@ Synthesis can be done in two ways:
 - Format for filtering is min:max
 - Example: if we want to see only transformers with primary in range from 1nH to 1.1nH we should use 1e-9:1.1e-9 for Lp in the Filter section
 
-######  **Sweep using EMX:**
+###  **Sweep using EMX:**
 
  ![](/img/trSweepEmx.png)
 
@@ -78,4 +78,4 @@ Synthesis can be done in two ways:
 
 Apply for 30 days free evaluation license.
 
-##### Contact: info@passivelib.com
+### Contact: info@passivelib.com
