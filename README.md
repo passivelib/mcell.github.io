@@ -28,8 +28,6 @@ mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-len
 
 ###   **User to do:**
 
- ![](/img/run.png)
-
 ```
 source runEmx.sh
 source runModelgen.sh
