@@ -42,8 +42,8 @@ Synthesis can be done in two ways:
 ## **2. Sweep geometry**
 
 ###  **Your input:**
-
- ![](/img/tr1o1sw.png)
+<img src="/img/tr1o1sw.png" alt="" width="300" height="auto">
+ <!--![](/img/tr1o1sw.png)-->
 
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
 - Every component can have octagonal or rectangular geometry, and it can be with or without ground shield
