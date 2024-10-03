@@ -55,7 +55,7 @@ source runModelgen.sh
 
 ###  **Sweep using FastHenry:**
 
- <img src="/img/trSweepFh.png" width="500" height="auto">
+ <img src="/mcell.github.io/img/trSweepFh.png" width="500" height="auto">
 
 - FastHenry can be used to sweep thousands of different geometries in the range of several minutes
 - This is specially valuable for designing transformers (for matching networks), since primary and secondary inductors and coupling coefficient are dependent on each other, and it is difficult to design them independently
@@ -66,7 +66,7 @@ source runModelgen.sh
 
 ###  **Sweep using EMX:**
 
-<img src="/img/trSweepEmx.png" width="500" height="auto">
+<img src="/mcell.github.io/img/trSweepEmx.png" width="500" height="auto">
 
 - EMX is used for better accuracy
 - After selecting several geometries based on FastHenry simulation, EMX can be used for fine tuning
