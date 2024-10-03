@@ -5,7 +5,7 @@ Silicon foundries provide a limited set of models for passive components in thei
 
 In order to solve this problem, an EM simulator needs to be used to model missing passive components. However, design iterations and optimization with an EM simulator in the loop are very slow and tedious, leading to tape-out delays and increased development cost.
 
- ![](https:/mcell/img/all2-1024x609.png)
+ ![](https://github.com/passivelib/mcell.github.io/blob/f3902392a267f47dace736c8b72ed2e050c0d833/img/all2-1024x609.png)
 
 Make Cell (mcell) is a tool that automatize synthesis process of on-chip passive components in the required geometry and frequency range for any process node.
 
