@@ -7,7 +7,7 @@ In order to solve this problem, an EM simulator needs to be used to model missin
 
  ![](https:/img/all2-1024x609.png)
 
-PassiveLib is a tool that automatize synthesis process of on-chip passive components in the required geometry and frequency range for any process node.
+Make Cell (mcell) is a tool that automatize synthesis process of on-chip passive components in the required geometry and frequency range for any process node.
 
 Synthesis can be done in two ways:
 
@@ -21,7 +21,7 @@ mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-len
 
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
 
-###  **PassiveLib** output:
+###  **PassiveLib output: **
 
 - DRC clean set of gds files
 - Two scripts runEmx.sh and runModelgen.sh
