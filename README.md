@@ -59,7 +59,7 @@ source runModelgen.sh
 
 - FastHenry can be used to sweep thousands of different geometries in the range of several minutes
 - This is specially valuable for designing transformers (for matching networks), since primary and secondary inductors and coupling coefficient are dependent on each other, and it is difficult to design them independently
-- Results are calculated at DC, but there are accurate up to 0.5\*self-resonance-frequency
+- Results (L, Q, k) are calculated at DC
 - Once simulation is finished, filter section can be used to show only components with required performance
 - Format for filtering is min:max
 - Example: if we want to see only transformers with primary in range from 1nH to 1.1nH we should use 1e-9:1.1e-9 for Lp in the Filter section
