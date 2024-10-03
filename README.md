@@ -21,7 +21,7 @@ mcell -d 150:200:10 -w 6:10:2 -s 6:10:2 -n 2:5:1 -t inductor-symmetric --pin-len
 
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
 
-###  **PassiveLib output:**
+###  **MCELL output:**
 
 - DRC clean set of gds files
 - Two scripts runEmx.sh and runModelgen.sh
@@ -44,7 +44,6 @@ source runModelgen.sh
 
 ###  **Your input:**
 <img src="/img/tr1o1sw.png" width="300" height="auto">
- <!--![](/img/tr1o1sw.png)-->
 
 - Component type and range of geometric parameters (diameter, metal width, number of turns, spacing between turns, …)
 - Every component can have octagonal or rectangular geometry, and it can be with or without ground shield
